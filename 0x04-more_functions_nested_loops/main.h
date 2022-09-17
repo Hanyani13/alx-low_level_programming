@@ -1,11 +1,12 @@
-#include <unistd.h>
+#include ifndef MAIN_H
+#define MAIN_H
+
 /**
- * _putchar - writes the character c to stdout
- * @c: The character to print
- *
- * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
+ * main - header file for prototypes
+ * void prototypes (void)
+ * int prototypes (int)
  */
+
 int _putchar(char c);
 void print_numbers(void);
 int mul(int a, int b);
@@ -18,7 +19,5 @@ void print_diagonal(int n);
 void print_square(int size);
 void print_triangle(int size);
 
-{
-  return (write(1, &c, 1));
-}
+#endif /* MAIN.H */
 

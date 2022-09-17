@@ -1,20 +1,17 @@
-#include <stdio.h>
 #include "main.h"
+#include <stdio.h>
+
 /**
- * main - check the code.
+ * main - check the code
  *
  * Return: Always 0.
  */
-
 int _isupper(int c)
 {
-	int c = 'H';
-	if (c == _isupper)
-      {
-		return (1);
-      }
-	else
-      {
-	return (0);
-      }
+  if ((c >= 'A') && (c <= 'Z'))
+    {
+      return (1);
+    }
+
+  return (0);
 }

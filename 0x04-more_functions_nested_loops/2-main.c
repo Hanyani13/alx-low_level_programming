@@ -6,12 +6,9 @@
  *
  * Return: Always 0.
  */
-int _isupper(int c)
+int main(void)
 {
-	if ((c >= 'A') && (c <= 'Z'))
-	{
-	return (1);
-	}
-
-	return (0);
+  printf("%d\n", mul(98, 1024));
+  printf("%d\n", mul(-402, 4096));
+  return (0);
 }

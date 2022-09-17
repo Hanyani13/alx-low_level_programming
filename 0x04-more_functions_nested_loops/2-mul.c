@@ -2,28 +2,13 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * main - calculate multiplication between two integers
  *
- * Return: Always 0
+ * Return: multiplication reaults
  */
 
-int main(void)
+int mul(int a, int b);
 {
-  int a = 7;
-  int b = 5;
-  if(a * b)
-    {
-      printf("%d\n", mul(7, b));
-    }
-  return (0);
-}
-void int (int a, int b)
-{
-  int a;
-  int b;
-  if(int a * b)
-    {
-      return;
-    }
+	return (a * b);
 }
 

@@ -2,22 +2,23 @@
 include "main.h"
 
 /**
- * main - check the code
+ * main - print most numbers
  *
  * Return: Always 0.
  */
 
-int main(void)
+void print_most_numbers(void)
 {
-  int n;
+	int number;
+	number = 0;
 
-  while (n = 0, n <= 9, n++)
-    {
-      if (n == 2 || n == 4)
-	putcher('n');
-      ++n;
-    }
-  putchar('\n');
+	for (number = 0; number <= 9; ++number)
+	{
+		if (number == 2 || number == 4)
+			continue;
+		_putchar(number + 48)
+	}
 
-  return (0);
 }
+
+

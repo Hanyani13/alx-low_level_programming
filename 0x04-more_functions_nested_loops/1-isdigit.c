@@ -2,33 +2,17 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * main - check whether character is digit or not
  *
- * Return: Always 0.
+ * return: 1 if it is, 0 other
  */
 
 int _isdigit(int c)
 {
-  c = '0';
-  if (c == _isdigit)
-    {
-      return (1);
+	if ((c >= 48) && (c <= 57))
+	{
+	return (1);
 	}
-  else
-    {
-      return (0);
-    }
-}
-int main(void)
-{
-  int c;
-  c = '0';
-  while (c == _isdigit)
-    {
-    putchar('/n' c is a digit);
-    }
-  else
-    {
-    putchar('/n' c is not a digit);
-  }
+
+	return (0);
 }

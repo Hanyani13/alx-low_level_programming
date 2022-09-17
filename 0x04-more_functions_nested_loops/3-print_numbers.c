@@ -2,22 +2,24 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * main - print numbers
  *
  * Return: Always 0.
  */
 
-int main(void)
+void print_numbers(void)
 {
-	int n = 0;
-
-	while (n <= 9)
+	int number;
+	number = 0;
+	
+	do
 	{
-	putchar(n);
-	++n;
+		_putchar(number + 0 || number + 48);
+		number++;
 	}
 
-	putchar('\n');
-	return (0);
+	while(number >= 0 && number <= 9);
+	_putcher('\n')
 }
+
 

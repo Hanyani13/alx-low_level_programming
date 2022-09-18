@@ -7,11 +7,12 @@
 
 int main(void)
 {
-	char letter;
+	char zh = 'a';
+	while (zh <= 'z')
+	{
+		putchar(zh); ++zh;
+	}
+	putchar('\n');
 
-	for (letter = 'a'; letter <= 'z'; letter++)
-		putchar(letter);
-	for (letter = 'A'; letter <= 'Z'; letter++)
-		putcher(letter);
-	putcher("\n);
-	return(0);
+	return (0);
+}

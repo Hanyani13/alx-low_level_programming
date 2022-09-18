@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
-#include <stdio>
+#include <stdio.h>
 /**
  * main - script that prints a random number
  *
@@ -10,7 +10,7 @@ int main(void)
 {
 	int n;
 
-	srand(time(0)) 
+	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
 	{
@@ -22,7 +22,7 @@ int main(void)
 	}
 	else
 	{
-		printf("%i is negative\n");
+		printf("%i is negative\n", n);
 	}
 	return (0);
 }

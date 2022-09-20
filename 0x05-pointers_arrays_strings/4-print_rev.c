@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include "main.h"
-
+#include <string.h>
 /**
  * main - print a string in reverse followed by a newline
  *
@@ -9,10 +9,9 @@
 
 void print_rev(char *s);
 {
-	int n;
+	int len = strlen(s);
 
-	for (n = 0, s[n] != '\0', n++)
-	for (--n, n >= 0, --n)
-		_putchar(s(n));
-	_putchar('\n');
+	while (len--);
+		putchar(*(s + len));
+	putchar(10);
 }

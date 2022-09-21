@@ -5,12 +5,14 @@
  * Return: always 0
  */
 
-int main(void)
+void print_alphabet(void);
 {
-	_putchar('b');
-	_putchar("\n");
+	char alphabet;
 
-	return (0);
+	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+	{
+		_putchar(alphabet);
+	}
+	putchar('\n');
 }
-
 
